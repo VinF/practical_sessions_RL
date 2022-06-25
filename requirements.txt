@@ -1,0 +1,12 @@
+###### Requirements (without Version Specifiers) ######
+gym
+jax
+jaxlib
+matplotlib
+pygame
+torch
+seaborn
+scikit-image
+imageio
+sk-video
+
