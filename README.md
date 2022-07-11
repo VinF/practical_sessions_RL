@@ -19,3 +19,10 @@ You can then launch the jupyter notebook
 $ jupyter notebook
 ```
 and navigate to the folder of interest for each of the practical sessions.
+
+
+## Colab
+
+Alternatively, you can upload the notebooks on colab (https://colab.research.google.com) and run them online (you will need a Google account)
+You can also just copy the following colab notebooks to your Google Drive:
+* Policy gradient: https://colab.research.google.com/drive/1b6o6aLCIt2hdCmxehawmvCxkE0rXy5Ot?usp=sharing
