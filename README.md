@@ -1,6 +1,6 @@
-# Practical sessions RL summer school
+# Practical sessions RL
 
-This repository contains the jupyter notebooks used for the RL summer school 2022 in Amsterdam.
+This repository contains several jupyter notebooks for an hands-on introduction to RL.
 
 To get started, first clone this repository or download the zip file (by clicking on the "code" button above).
 
