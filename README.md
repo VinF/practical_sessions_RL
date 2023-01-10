@@ -5,20 +5,28 @@ This repository contains several jupyter notebooks for an hands-on introduction 
 To get everything ready for the practicals using virtualenv, follow these commands:
 
 Clone the repository onto your laptop:
+```
 $ git clone https://github.com/VinF/practical_sessions_RL.git
 $ cd practical_sessions_RL
+```
 
 Create a virtual environment called 'venv' using the package virtualenv and activate it:
+```
 $ virtualenv venv
 $ source venv/bin/activate
+```
 
 Install all packages in your virtual environment 'venv' using pip (install pip if needed), then install jupyter notebook, then add your virtual environment to the jupyter kernel using ipython (install ipython on your computer if needed).
+```
 $ pip install -r requirements.txt
 $ pip install jupyter
 $ ipython kernel install --user --name=venv
+```
 
 Now you can start the tutorials!
+```
 $ jupyter notebook
+```
 
 
 
