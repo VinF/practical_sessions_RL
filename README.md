@@ -32,6 +32,8 @@ $ jupyter notebook
 
 ### Option 2: Setup using Anaconda
 
+To  setup using Anaconda, you can use this tutorial:
+
 https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a
 
 Once you have created and activated a conda environment, you can go to the folder that contains this repository that you have cloned/downloaded and you can use the following command to install the required packages for the practical sessions:
