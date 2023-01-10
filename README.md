@@ -2,6 +2,8 @@
 
 This repository contains several jupyter notebooks for an hands-on introduction to RL.
 
+## Option 1: Setup using virtualenv
+
 To get everything ready for the practicals using virtualenv, follow these commands:
 
 Clone the repository onto your laptop:
@@ -28,9 +30,8 @@ Now you can start the tutorials!
 $ jupyter notebook
 ```
 
+## Option 2: Setup using Anaconda
 
-
-Note: If you prefer the anaconda package manager, you can follow this tutorial:
 https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a
 
 Once you have created and activated a conda environment, you can go to the folder that contains this repository that you have cloned/downloaded and you can use the following command to install the required packages for the practical sessions:
