@@ -2,12 +2,28 @@
 
 This repository contains several jupyter notebooks for an hands-on introduction to RL.
 
-To get started, first clone this repository or download the zip file (by clicking on the "code" button above).
+To get everything ready for the practicals using virtualenv, follow these commands:
 
-We then suggest that you setup an anaconda environement and install the jupyter notebooks by following this tutorial:
+Clone the repository onto your laptop:
+$ git clone https://github.com/VinF/practical_sessions_RL.git
+$ cd practical_sessions_RL
+
+Create a virtual environment called 'venv' using the package virtualenv and activate it:
+$ virtualenv venv
+$ source venv/bin/activate
+
+Install all packages in your virtual environment 'venv' using pip (install pip if needed), then install jupyter notebook, then add your virtual environment to the jupyter kernel using ipython (install ipython on your computer if needed).
+$ pip install -r requirements.txt
+$ pip install jupyter
+$ ipython kernel install --user --name=venv
+
+Now you can start the tutorials!
+$ jupyter notebook
+
+
+
+Note: If you prefer the anaconda package manager, you can follow this tutorial:
 https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a
-
-You should also install the pip package manager as described in the tutorial.
 
 Once you have created and activated a conda environment, you can go to the folder that contains this repository that you have cloned/downloaded and you can use the following command to install the required packages for the practical sessions:
 ```
