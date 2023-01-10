@@ -18,7 +18,7 @@ $ virtualenv venv
 $ source venv/bin/activate
 ```
 
-Install all packages in your virtual environment 'venv' using pip (install pip if needed), then install jupyter notebook, then add your virtual environment to the jupyter kernel using ipython (install ipython on your computer if needed).
+Install all packages in your virtual environment 'venv' using pip (install pip if needed), then install jupyter notebook, then add your virtual environment to the jupyter kernel using ipython (install ipython on your computer if needed):
 ```
 $ pip install -r requirements.txt
 $ pip install jupyter
