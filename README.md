@@ -2,7 +2,7 @@
 
 This repository contains several jupyter notebooks for an hands-on introduction to RL.
 
-## Option 1: Setup using virtualenv
+### Option 1: Setup using virtualenv
 
 To get everything ready for the practicals using virtualenv, follow these commands:
 
@@ -30,7 +30,7 @@ Now you can start the tutorials!
 $ jupyter notebook
 ```
 
-## Option 2: Setup using Anaconda
+### Option 2: Setup using Anaconda
 
 https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a
 
