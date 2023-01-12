@@ -120,7 +120,7 @@ def trainer(env, aspace, nsup, vmin, vmax, gamma, episodes, replay_size = 200, b
 
         # if game is done
         if done: 
-            state = preproc_state(env.reset())
+            state = preproc_state(env.reset()[0])
             done = False
 
         if i % 200 == 0:
