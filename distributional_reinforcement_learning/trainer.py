@@ -50,7 +50,7 @@ def trainer(env, aspace, nsup, vmin, vmax, gamma, episodes, replay_size = 200, b
     losses = []
     cum_rewards = [] 
     renders = []
-    state = preproc_state(env.reset())  # state preprocessing 
+    state = preproc_state(env.reset()[0])  # state preprocessing 
     game_wins = []                      # games won tracker
 
     for i in range(episodes):
@@ -68,7 +68,8 @@ def trainer(env, aspace, nsup, vmin, vmax, gamma, episodes, replay_size = 200, b
         #env.reset()
 
         # take selected action 
-        state2, reward, done, info = env.step(action) 
+        state2, reward, terminated, truncated, info = env.step(action)
+        done = terminated or truncated
         state2 = preproc_state(state2)
 
         # examine reward structure of action
