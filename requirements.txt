@@ -12,3 +12,5 @@ scikit-image
 imageio
 sk-video
 pandas
+imageio[ffmpeg]
+imageio[pyav]
