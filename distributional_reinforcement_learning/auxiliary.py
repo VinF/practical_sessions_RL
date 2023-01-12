@@ -21,7 +21,7 @@ def preproc_state(state):
     return p_state
 
 
-def get_dist_plot(env,dist,support,shape=(105,80,3)):
+def get_dist_plot(env,dist,support,shape=(105,80,3), image=None):
     """
     This function renders a side-by-side RGB image (returned as numpy array)
     of the current environment state (left) next to the current predicted probability distribution
@@ -68,6 +68,6 @@ def get_dist_plot(env,dist,support,shape=(105,80,3)):
     image2 = resize(image1,shape)
     image2 = img_as_ubyte(image2)
     
-    state_render = img_as_ubyte(resize(env.render(mode='rgb_array'),shape))
+    state_render = img_as_ubyte(resize(image,shape))
     image3 = np.hstack((state_render,image2))
     return image3
