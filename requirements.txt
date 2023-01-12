@@ -1,5 +1,7 @@
 ###### Requirements (without Version Specifiers) ######
 gym
+gym[atari]
+autorom[accept-rom-license]
 jax
 jaxlib
 matplotlib
