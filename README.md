@@ -2,9 +2,9 @@
 
 This repository contains several jupyter notebooks for an hands-on introduction to RL.
 
-### Option 1: Setup using virtualenv
+### Option 1: Setup using virtual environment
 
-To get everything ready for the practicals using virtualenv, follow these commands:
+To get everything ready for the practicals using a virtual environment, follow these commands:
 
 Clone the repository onto your laptop:
 ```
@@ -12,17 +12,26 @@ $ git clone https://github.com/VinF/practical_sessions_RL.git
 $ cd practical_sessions_RL
 ```
 
-Create a virtual environment called 'venv' using the package virtualenv and activate it:
+Create a virtual environment called 'venv' using Python (>=3.8) and activate it:
+
+On macOS / Linux:
 ```
-$ virtualenv venv
+$ python3 -m venv venv
 $ source venv/bin/activate
 ```
+On Windows (cmd):
 
-Install all packages in your virtual environment 'venv' using pip (install pip if needed), then install jupyter notebook, then add your virtual environment to the jupyter kernel using ipython (install ipython on your computer if needed):
 ```
-$ pip install -r requirements.txt
-$ pip install jupyter
-$ ipython kernel install --user --name=venv
+$ python -m venv venv
+$ venv\Scripts\activate
+```
+
+Install all packages in your virtual environment 'venv' using pip, then install jupyter notebook, then add your virtual environment to the jupyter kernel:
+```
+$ python -m pip install --upgrade pip
+$ python -m pip install -r requirements.txt
+$ python -m pip install jupyter ipykernel
+$ python -m ipykernel install --user --name=venv
 ```
 
 Now you can start the tutorials!
