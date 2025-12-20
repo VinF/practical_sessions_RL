@@ -26,12 +26,11 @@ $ python -m venv venv
 $ venv\Scripts\activate
 ```
 
-Install all packages in your virtual environment 'venv' using pip, then install jupyter notebook, then add your virtual environment to the jupyter kernel:
+Install all packages in your virtual environment 'venv' using pip, then install jupyter notebook and ipykernel:
 ```
 $ python -m pip install --upgrade pip
 $ python -m pip install -r requirements.txt
 $ python -m pip install jupyter ipykernel
-$ python -m ipykernel install --user --name=venv
 ```
 
 Now you can start the tutorials!
