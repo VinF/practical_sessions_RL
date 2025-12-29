@@ -1,6 +1,6 @@
 ###### Requirements (without Version Specifiers) ######
-gym
-gym[atari]
+gymnasium
+gymnasium[atari]
 autorom[accept-rom-license]
 jax
 jaxlib
